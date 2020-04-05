@@ -18,6 +18,11 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
 
 If you have figured out the O(n) solution, try coding another solution using the divide and conquer approach, which is more subtle.
 
+--- 
+
+- if accumulate value is less then zero, then, just drop it, otherwise, keep adding
+
+
 ```cs
 public class Solution {
     public int MaxSubArray(int[] nums) {
@@ -33,9 +38,7 @@ public class Solution {
 }
 ```
 
-- if accumulate value is less then zero, then, just drop it, otherwise, keep adding
-
-dp will work as well:
+- dp will work as well:
 
 ```cs
 public class Solution {

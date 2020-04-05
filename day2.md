@@ -20,6 +20,10 @@ Explanation:
 12 + 02 + 02 = 1
 ```
 
+--- 
+
+- Because only 1 and 7 is happy number when n is below 10
+
 ```cs
 public class Solution {
     public bool IsHappy(int n) {
@@ -36,9 +40,9 @@ public class Solution {
 }
 ```
 
-- But you will need to know only 1 and 7 is happy number when n is below 10
-
 OR
+
+- Storing all visited number into a list, keep going until we hit one number two times, we have an infinit loop
 
 ```cs
 public class Solution {
@@ -57,5 +61,3 @@ public class Solution {
     }
 }
 ```
-
-- Storing all visited number into a list, keep going until we hit one number two times, we have an infinit loop

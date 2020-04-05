@@ -24,6 +24,11 @@ Input: [4,1,2,1,2]
 Output: 4
 ```
 
+--- 
+
+- Uses bitwise XOR
+- This works because if two numbers are the same num ^ num = 0, so all the duplicates will cancel out
+
 ```cs
 public class Solution {
     public int SingleNumber(int[] nums) {
@@ -35,6 +40,3 @@ public class Solution {
     }
 }
 ```
-
-- Uses bitwise XOR
-- This works because if two numbers are the same num ^ num = 0, so all the duplicates will cancel out
