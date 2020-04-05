@@ -1,6 +1,6 @@
 ## Day3
 
-### Maximum Subarray
+### [Maximum Subarray](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3285/)
 
 ---
 
@@ -29,6 +29,25 @@ public class Solution {
             if (a < 0) a = 0;
         }
         return ans;
+    }
+}
+```
+
+- if accumulate value is less then zero, then, just drop it, otherwise, keep adding
+
+dp will work as well:
+
+```cs
+public class Solution {
+    public int MaxSubArray(int[] nums) {
+        int[] dp = new int[nums.Length];
+        dp[0] = nums[0];
+        int result = nums[0];
+        for (int i = 1; i < nums.Length; i++){
+            dp[i] = (int)Math.Max(dp[i - 1] + nums[i], nums[i]);
+            if (dp[i] > result) result = dp[i];
+        }
+        return result;
     }
 }
 ```

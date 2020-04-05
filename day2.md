@@ -1,6 +1,7 @@
 ## Day2
 
-### Happy Number
+### [Happy Number](https://leetcode.com/explore/other/card/30-day-leetcoding-challenge/528/week-1/3284/)
+
 ---
 
 Write an algorithm to determine if a number is "happy".
@@ -34,3 +35,27 @@ public class Solution {
     }
 }
 ```
+
+- But you will need to know only 1 and 7 is happy number when n is below 10
+
+OR
+
+```cs
+public class Solution {
+    List<int> tested = new List<int>();
+    public bool IsHappy(int n) {
+        if (n == 1) return true;
+        int sum = 0;
+        while(n > 0) 
+        {
+            sum += (n % 10) * (n % 10) ;
+            n /= 10;
+        }
+        if (tested.IndexOf(sum) > -1) return false;
+        tested.Add(sum);
+        return IsHappy(sum);
+    }
+}
+```
+
+- Storing all visited number into a list, keep going until we hit one number two times, we have an infinit loop
