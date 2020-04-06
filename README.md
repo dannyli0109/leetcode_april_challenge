@@ -10,5 +10,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day4 - Move Zeroes](./day4.md)
 
-[Da5 - Best Time to Buy and Sell Stock II](./day5.md)
+[Day5 - Best Time to Buy and Sell Stock II](./day5.md)
 
