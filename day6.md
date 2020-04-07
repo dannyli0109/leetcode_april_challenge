@@ -24,6 +24,9 @@ Output:
 
 ---
 
+- sort by alphabetical order
+- store sorted string in the map with the index in the output array and if new anagrams are found, add them to the output array
+
 ```cs
 public class Solution {
     string SortString(string input)

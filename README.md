@@ -12,5 +12,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day5 - Best Time to Buy and Sell Stock II](./day5.md)
 
-[Day5 - Best Time to Buy and Sell Stock II](./day5.md)
+[Day6 - Group Anagrams](./day6.md)
 
