@@ -35,6 +35,8 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ```
 
+---
+
 - because you can only engage in one transaction at a time, just treat every as:
   - sell the stock from yesterday, if it makes a profit, we make the transaction (add to the profit)
   - buy the stock today
