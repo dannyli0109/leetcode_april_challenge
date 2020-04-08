@@ -14,3 +14,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day6 - Group Anagrams](./day6.md)
 
+[Day7 - Counting Elements](./day7.md)
+
