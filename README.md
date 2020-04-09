@@ -16,3 +16,4 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day7 - Counting Elements](./day7.md)
 
+[Day8 - Middle of the Linked List](./day8.md)
