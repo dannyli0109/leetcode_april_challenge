@@ -20,4 +20,6 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day9 - Backspace String Compare](./day9.md)
 
-[Day10 - Min Stack](./day10.md);
+[Day10 - Min Stack](./day10.md)
+
+[Day11 - Diameter of Binary Tree](./day11.md)

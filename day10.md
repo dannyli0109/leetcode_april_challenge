@@ -25,7 +25,9 @@ minStack.top();      --> Returns 0.
 minStack.getMin();   --> Returns -2.
 ```
 
-```
+- mataining another stack to store the min values
+
+```cs
 public class MinStack {
     Stack<int> elements;
     Stack<int> mins;
