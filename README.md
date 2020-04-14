@@ -25,3 +25,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day11 - Diameter of Binary Tree](./day11.md)
 
 [Day12 - Last Stone Weight](./day12.md)
+
+[Day13 - Contiguous Array](./day13.md)
