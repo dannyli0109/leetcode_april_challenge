@@ -45,9 +45,9 @@ Explanation:
 
 ---
 
-- we only care about the staring posiion of the string after the shift, therefore, we can -1 when it is a left shift and +1 when it is a right shift
-- when start position less than zero, we add the length of the string to wrap the string around
-- if the start position is greater than zero, we can do modulos on the string
+- we only care about the staring postion of the string after the shift, therefore, we can -1 when it is a left shift and +1 when it is a right shift
+- is `start < 0`, we add the length of the string to wrap the string around
+- do modulos to aviod start posion bigger than the length of the string
 
 ```cs
 public class Solution {
