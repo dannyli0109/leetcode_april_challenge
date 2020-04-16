@@ -28,7 +28,7 @@ Could you solve it with constant space complexity? (The output array **does not*
 ```
 [1, 1, 2, 6] *
 [24,12,4, 1] = 
-[24,24,8, 6]
+[24,12,8, 6]
 ```
 ```cs
 public class Solution {
