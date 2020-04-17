@@ -35,3 +35,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 ---
 
 [Day15 - Product of Array Except Self](./day15.md)
+
+[Day16 - Valid Parenthesis String](./day16.md)
