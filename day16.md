@@ -1,4 +1,4 @@
-## Day15
+## Day16
 
 ### [Valid Parenthesis String](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3301/)
 
@@ -44,7 +44,7 @@ Output: True
 - an important thing to realise is that * has not impact on the ( come after
 
 example:
-```cs
+```
 "(*))"
 [1,1], [0, 2], [0, 1], [0, 0]
 => lower is zero => return true
