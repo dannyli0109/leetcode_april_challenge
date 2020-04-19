@@ -39,3 +39,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day16 - Valid Parenthesis String](./day16.md)
 
 [Day17 - Number of Islands](./day17.md)
+
+[Day18 - Minimum Path Sum](./day18.md)
