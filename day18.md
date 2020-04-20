@@ -21,6 +21,8 @@ Output: 7
 Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ```
 
+---
+
 - bfs, keep track of the distance, if a neighbour have been vistied before check if the current distance to the neighbour is smaller than other paths if it is, update the distance
 - as it only move down or right, we only need to check these two directions
 
@@ -52,10 +54,10 @@ public class Solution {
                 for (int j = 0; j < 2; j++) {
                     int neighbourX = currentX + dirX[j];
                     int neighbourY = currentY + dirY[j];
-                    if (!(neighbourX >= 0 && neighbourY >= 0 && neighbourX < cols && neighbourY < rows)) {
-                        continue;
-                    }
-                    else {
+                    if (
+                        neighbourX >= 0 && neighbourY >= 0 && 
+                        neighbourX < cols && neighbourY < rows
+                    ) {
                         int neighbour = grid[neighbourY][neighbourX];
                         if (distance[neighbourY,neighbourX] == -1) {
                             queue.Enqueue(new int[] {neighbourY, neighbourX});
