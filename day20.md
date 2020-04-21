@@ -22,3 +22,39 @@ Output: [8,5,10,1,7,null,12]
 
 1. `1 <= preorder.length <= 100`
 2. The values of `preorder` are distinct.
+
+---
+
+- recursively look for the left child first to see if it fits the parent, if it is, add left child to the parent
+- do the same to the right child
+- for left child, we want the max value to be the parnet value
+- for the right child, we want the min value to be the parent value
+- if we run out of the list, we return null
+- if the child doesn't fits the parent, we return null
+
+```cs
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
+public class Solution {
+    int index = 0;
+    public TreeNode BstFromPreorder(int[] preorder) {
+        return recursive(preorder, int.MinValue, int.MaxValue);
+    }
+    
+    public TreeNode recursive(int[] preorder, int min, int max) {
+        if (index >= preorder.Length) return null;
+        if (preorder[index] < min || preorder[index] > max) return null;
+        TreeNode parent = new TreeNode(preorder[index++]);
+        parent.left = recursive(preorder, min, parent.val);
+        parent.right = recursive(preorder, parent.val, max);
+        return parent;
+    }
+}
+```
