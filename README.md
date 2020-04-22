@@ -42,6 +42,8 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day18 - Minimum Path Sum](./day18.md)
 
-[Day19 - Search in Rotated Sorted Array](day19.md)
+[Day19 - Search in Rotated Sorted Array](./day19.md)
 
-[Day20 - Construct Binary Search Tree from Preorder Traversal](day20.md)
+[Day20 - Construct Binary Search Tree from Preorder Traversal](./day20.md)
+
+[Day21 - Leftmost Column with at Least a One](./day21.md)
