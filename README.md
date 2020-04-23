@@ -47,3 +47,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day20 - Construct Binary Search Tree from Preorder Traversal](./day20.md)
 
 [Day21 - Leftmost Column with at Least a One](./day21.md)
+
+[Day22 - Subarray Sum Equals K](./day22.md)
