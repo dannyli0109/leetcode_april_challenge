@@ -48,4 +48,8 @@ With many of us around the world being encouraged to stay indoors and work from 
 
 [Day21 - Leftmost Column with at Least a One](./day21.md)
 
+---
+
 [Day22 - Subarray Sum Equals K](./day22.md)
+
+[Day23 - Bitwise AND of Numbers Range](./day23.md)
