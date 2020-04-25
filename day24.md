@@ -1,6 +1,6 @@
 ## Day24
 
-### [LRU Cache][(https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3308/](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3309/))
+### [LRU Cache](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3308/](https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/531/week-4/3309/))
 
 ---
 
