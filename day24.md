@@ -69,12 +69,9 @@ public class LRUCache {
                 int keyToRemove = list[0];
                 map.Remove(keyToRemove);
                 list.Remove(keyToRemove);
-                map.Add(key, value);
             }
-            else {
-                map.Add(key, value);
-                count++;
-            }
+            map.Add(key, value);
+            count++;
         }
         list.Add(key);
     }

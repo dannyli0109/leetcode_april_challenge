@@ -55,3 +55,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day23 - Bitwise AND of Numbers Range](./day23.md)
 
 [Day24 - LRU Cache](./day24.md)
+
+[Day25 - Jump Game](./day25.md)
