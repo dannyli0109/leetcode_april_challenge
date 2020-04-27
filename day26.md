@@ -38,3 +38,41 @@ Explanation: There is no such common subsequence, so the result is 0.
 - `1 <= text1.length <= 1000`
 - `1 <= text2.length <= 1000`
 - The input strings consist of lowercase English characters only.
+
+---
+
+- `if (text1[i] == text2[j]) => dp[i, j] = dp[i - 1,j - 1]`
+- else `dp[i, j] = max(dp[i - 1, j], dp[i, j - 1]`
+
+```cs
+public class Solution {
+    public int LongestCommonSubsequence(string text1, string text2) {
+        int[,] dp = new int[text1.Length,text2.Length];
+        
+        int max = 0;     
+        for (int i = 0; i < text1.Length; i++) {
+            for (int j = 0; j < text2.Length; j++) {
+                if (i == 0 && j == 0) {
+                    dp[i, j] = (text1[i] == text2[j]) ? 1 : 0;
+                }
+                else if (i == 0) {
+                    dp[i, j] = (int)MathF.Max(dp[i, j - 1], (text1[i] == text2[j]) ? 1 : 0);
+                }
+                else if (j == 0) {
+                    dp[i, j] = (int)MathF.Max(dp[i - 1, j], (text1[i] == text2[j]) ? 1 : 0);
+                } 
+                else {
+                    if (text1[i] == text2[j]) {
+                        dp[i, j] = dp[i - 1, j - 1] + 1;
+                    }
+                    else {
+                        dp[i, j] = (int)MathF.Max(dp[i - 1, j], dp[i, j - 1]);
+                    }
+                }
+                if (max < dp[i, j]) max = dp[i, j];
+            }
+        }
+        return max;
+    }
+}
+```
