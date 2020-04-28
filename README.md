@@ -59,3 +59,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day25 - Jump Game](./day25.md)
 
 [Day26 - Longest Common Subsequence](./day26.md)
+
+[Day27 - Maximal Square](./day27.md)
