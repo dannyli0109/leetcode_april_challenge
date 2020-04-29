@@ -61,3 +61,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day26 - Longest Common Subsequence](./day26.md)
 
 [Day27 - Maximal Square](./day27.md)
+
+[Day28 - First Unique Number](./day28.md)
