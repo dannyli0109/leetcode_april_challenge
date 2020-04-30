@@ -42,7 +42,7 @@ public class Solution {
 
 OR
 
-- Storing all visited number into a list, keep going until we hit one number two times, we have an infinit loop
+- Storing all visited number into a list, keep going until we hit one number two times, we have an infinite loop
 
 ```cs
 public class Solution {

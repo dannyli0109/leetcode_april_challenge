@@ -65,3 +65,5 @@ With many of us around the world being encouraged to stay indoors and work from 
 [Day28 - First Unique Number](./day28.md)
 
 [Day29 - Binary Tree Maximum Path Sum(Need Revise)](./day29.md)
+
+[Day30 - Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](./day30.md)
